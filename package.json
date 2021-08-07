@@ -1,0 +1,63 @@
+{
+  "name": "zap-document-designer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "decode-tiff": "^0.2.1",
+    "file-saver": "^2.0.5",
+    "fs": "0.0.1-security",
+    "geotiff": "^1.0.0-beta.16",
+    "js-base64": "^3.6.0",
+    "konva": "^7.2.1",
+    "natives": "^1.1.6",
+    "pngjs": "^6.0.0",
+    "react": "^17.0.1",
+    "react-awesome-button": "^6.5.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-file-reader": "^1.1.4",
+    "react-images-upload": "^1.2.8",
+    "react-images-uploading": "^3.1.2",
+    "react-konva": "^17.0.0-0",
+    "react-scripts": "4.0.1",
+    "react-simple-tree-menu": "^1.1.18",
+    "styled-components": "^5.2.1",
+    "tiff": "^4.3.0",
+    "tiff.js": "^1.0.0",
+    "use-image": "^1.0.6",
+    "utif": "^3.1.0",
+    "v8": "^0.1.0",
+    "web-vitals": "^0.2.4",
+    "x2js": "^3.4.0"
+  },
+  "scripts": {
+    "fix-memory-limit": "cross-env LIMIT=2048 increase-memory-limit",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
